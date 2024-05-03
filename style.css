@@ -1,0 +1,19 @@
+title{
+    background-color: aquamarine;
+    color: whitesmoke;
+}
+
+body{
+    background-color: blueviolet;
+    color: white;
+}
+td{
+    border: 2px solid black;
+    padding: auto;
+
+}
+th{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5pxpx;
+}
+
