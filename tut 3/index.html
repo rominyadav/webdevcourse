@@ -6,21 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Sizing Units </title>
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
         }
+
         .box {
             border: 2px solid rgb(0, 0, 0);
-            width: 2560px;
+            width: 90vw;
             background-color: aquamarine;
             box-sizing: border-box;
+            margin: 10px auto;
         }
+
+        .container {
+            border: 2px solid rgb(0, 0, 0);
+            width: 90vw;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            margin: 23px auto;
+        }
+
+        
     </style>
 </head>
 
 <body>
-    <div class="box">This is a Box.</div>
+    <div>
+        <div class="box">This is a Box.</div>
+        <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quas quidem
+            laudantium officiis aut, sed necessitatibus veritatis quia laboriosam nihil consequuntur eos impedit
+            deleniti iste placeat doloribus atque! Sunt exercitationem incidunt inventore autem neque minima nemo ipsa
+            nobis molestiae officiis possimus debitis iusto soluta temporibus, quibusdam, tempore quidem, aperiam
+            perferendis facere nulla consectetur fuga architecto error.</div>
+    </div>
 </body>
 
 </html>
