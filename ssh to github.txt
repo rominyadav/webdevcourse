@@ -1,0 +1,14 @@
+// To configure git
+
+1.  git config --global user.name "Romin"
+2.  git config --global user.email "your_email"
+
+ssh-keygen -t ed25519 -C "you_email@gmail.com"
+
+git remote add origin https://github.com/owner/git_path
+
+eval $(ssh-agent)
+
+ssh-add ~/.ssh/id_ed25519
+
+tail ~/.ssh/id_ed25519.pub  //Add this to github
